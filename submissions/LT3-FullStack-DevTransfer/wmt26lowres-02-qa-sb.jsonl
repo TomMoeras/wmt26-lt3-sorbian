@@ -1,0 +1,415 @@
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H01", "question": "Štó je wučerka?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H1", "question": "Knjez Šuman je", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H2", "question": "Kak stare holcy su?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H3", "question": "Hdźe bydli syn?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H4", "question": "Što je w Serbskich Nowinach?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H5", "question": "Hdźe je Jurij?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H6", "question": "Hdźe bydli Sarah?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H02", "question": "Za kurs trjebamy słowniki.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H7", "question": "Koncert je dźensa w Pančicach-Kukowje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H8", "question": "Swójbny dźeń je štwórtk.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H9", "question": "Žołta papjera je w regalu.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H10", "question": "Hilža ma tři dźěći.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H11", "question": "Karnewal je", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H12", "question": "Knjeni Kaiserowa ma telefonowe čisło", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H13", "question": "Knjez Siatkowski filmuje", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H14", "question": "Program wuhotuja", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.H15", "question": "Fyzioterapija", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L1", "question": "Prawa replika je:", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L2", "question": "Prawa replika je:", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L6", "question": "Hana ma narodniny.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L7", "question": "Hana rady njespěwa.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L8", "question": "Jadwiga je w pěstowarni.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L9", "question": "Trening je přeco srjedu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L10", "question": "Lisa njetrenuje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L03", "question": "Serbska kulturna informacija je w Serbskim domje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L11", "question": "W pěstowarni je swójbny dźeń.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L12", "question": "Srjedu sekretarka njedźěła.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L13", "question": "Krimi hraje w Budyšinje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L14", "question": "Nowy kurs serbšćiny je wutoru.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A1.2.L15", "question": "Nowa praktikantka je póndźelu a štwórtk w pěstowarni.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H01", "question": "W kotrej stwě móžeće knjeza Marka namakać?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H1", "question": "Kelko płaći dwójna cejdejka?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H2", "question": "Hdy jědźe ćah do Prahi?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H3", "question": "Što hósć wobjeduje?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H4", "question": "Čehodla synk płaka?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H5", "question": "Kak dołho ma kolegina dowol?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H6", "question": "Što dyrbi Marka na blido stajić?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H02", "question": "Protyka ma 6. oktobra premjeru.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H7", "question": "Wšitke knihi za dźěći su za poł płaćizny.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H8", "question": "Skupina zetka so po přestawce w hosćencu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H9", "question": "Čitanske wubědźowanje je w Serbskim domje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H10", "question": "Dnja 5. meje wosebita akcija njepłaći.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H11", "question": "Handyjowe čisło je:", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H12", "question": "Hdźe je Jan?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H13", "question": "Kak dołho chce Jan hišće čakać?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H14", "question": "Hdy je nowy termin knjenje Měrćinkoweje?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.H15", "question": "Što je skóncowane?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L01", "question": "Katarina je na kurje w Bad Sulza.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L1", "question": "Katarina je serbske dźěćo.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L2", "question": "Katarina rěči rusce a pólsce.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L3", "question": "Isabell jě rady tomaty.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L4", "question": "Trjebamy žonop, twaroh a butru. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L5", "question": "Rybu dyrbimy třinaće minutow pjec.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L11", "question": "Ben je pjatk w indiskim hosćencu wobjedował. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L12", "question": "Wječor je Ben z přećelemi na disko šoł.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L13", "question": "Sobotu připołdnju je Maja zawołała. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L14", "question": "Ben je z Maju do Serbskeho muzeja šoł.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "A2.2.L15", "question": "Njedźelu je Ben wjele fotografował.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H1", "question": "Handrij je druhi raz nan.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H2", "question": "Sabina je zhromadnje z mužom do Indiskeje jěła.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H3", "question": "Stanijej je so wopyt dźiwadła jara lubił.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H4", "question": "Uta ma swójsku firmu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H5", "question": "Tanja je lětsa kwas měła.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H16", "question": "Hdy je zubnolěkarska praksa začinjena?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H17", "question": "Hdźe bus pojědźe?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H18", "question": "Z kotreje rěče je Marina Tarantowa roman přełožiła? ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H19", "question": "Što ma so w Rodecach twarić?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.H20", "question": "Kak husto zarjaduje Domowina folklorny festiwal?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L1", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L2", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi.", "pred": 5}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L3", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi.", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L4", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi.", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L5", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L6", "question": "Choćebuz ma synagogu, kotraž", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L7", "question": "Dźensa ma židowska wosada", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L8", "question": "Simon Shkolnik je", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L9", "question": "Židowski swjedźeń jom kipur", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.L10", "question": "Židowska wosada dźiwa na tradicije a", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S1", "question": "Napjelńće městno čo. I z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S2", "question": "Napjelńće městno čo. II z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S3", "question": "Napjelńće městno čo. III z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S4", "question": "Napjelńće městno čo. IV z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S5", "question": "Napjelńće městno čo. V z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S6", "question": "Napjelńće městno čo. VI z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S7", "question": "Napjelńće městno čo. VII z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S8", "question": "Napjelńće městno čo. VIII z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S9", "question": "Napjelńće městno čo. IX z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S10", "question": "Napjelńće městno čo. X z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S11", "question": "Napjelńće městno čo. XI z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S12", "question": "Napjelńće městno čo. XII z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S13", "question": "Napjelńće městno čo. I z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S14", "question": "Napjelńće městno čo. II z prawym słowom.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S15", "question": "Napjelńće městno čo. III z prawym słowom.", "pred": 15}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S16", "question": "Napjelńće městno čo. IV z prawym słowom.", "pred": 9}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S17", "question": "Napjelńće městno čo. V z prawym słowom.", "pred": 14}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S18", "question": "Napjelńće městno čo. VI z prawym słowom.", "pred": 5}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S19", "question": "Napjelńće městno čo. VII z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S20", "question": "Napjelńće městno čo. VIII z prawym słowom.", "pred": 11}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S21", "question": "Napjelńće městno čo. IX z prawym słowom.", "pred": 16}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S22", "question": "Napjelńće městno čo. X z prawym słowom.", "pred": 13}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S23", "question": "Napjelńće městno čo. XI z prawym słowom.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B1.2.S24", "question": "Napjelńće městno čo. XII z prawym słowom.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H1", "question": "Lětsa su w Budyskim wokrjesu jara hubjene žně. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H2", "question": "W přichodnych lětach změje Załožba za serbski lud 500 000 eurow mjenje k dispoziciji. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H3", "question": "Stara delnjoserbska biblija je we wšelakich pisanskich wariantach w interneće přistupna. ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H4", "question": "Inscenacija „Naša Hanka w’ wěncu steji“ ma folklorny charakter. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H5", "question": "Aktualne wjedro je idealne za motocrossowy sport w Jaworje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H16", "question": "Što dyrbja šoferojo na zwjazkowej dróze B 97 wědźeć?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H17", "question": "Čehodla dyrbja wobydlerjo Grodka wšitke wokna a durje začinić?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H18", "question": "Čehodla njesměš so aktualnje blisko kupy w Złokomorowskim jězoru kupać?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H19", "question": "Před čim warnuje policija?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.H20", "question": "Štó měješe zbožo w njezbožu?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L1", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi. ", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L2", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi. ", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L3", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi. ", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L4", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi. ", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L5", "question": "Rozsudźće, kotre nadpismo so najlěpje ke kotremu tekstej hodźi. ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L6", "question": "Marga je …", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L7", "question": "Zahrodowe město je so natwariło, dokelž …", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L8", "question": "Architekt městačka je kěrchow …", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L9", "question": "W zahrodowym měsće w Brězkach …", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L10", "question": "Brunicowa jama je …", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L11", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L12", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L13", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L14", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L15", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L16", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L17", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L18", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L19", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L20", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L21", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.L22", "question": "Rozsudźće, kotry tekst so najlěpje ke kotrej situaciji hodźi.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S1", "question": "Napjelńće městno čo. I z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S2", "question": "Napjelńće městno čo. II z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S3", "question": "Napjelńće městno čo. III z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S4", "question": "Napjelńće městno čo. IV z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S5", "question": "Napjelńće městno čo. V z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S6", "question": "Napjelńće městno čo. VI z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S7", "question": "Napjelńće městno čo. VII z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S8", "question": "Napjelńće městno čo. VIII z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S9", "question": "Napjelńće městno čo. IX z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S10", "question": "Napjelńće městno čo. X z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S11", "question": "Napjelńće městno čo. XI z prawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S12", "question": "Napjelńće městno čo. XII z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S13", "question": "Napjelńće městno čo. I z prawym słowom.", "pred": 13}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S14", "question": "Napjelńće městno čo. II z prawym słowom.", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S15", "question": "Napjelńće městno čo. III z prawym słowom.", "pred": 15}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S16", "question": "Napjelńće městno čo. IV z prawym słowom.", "pred": 5}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S17", "question": "Napjelńće městno čo. V z prawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S18", "question": "Napjelńće městno čo. VI z prawym słowom.", "pred": 11}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S19", "question": "Napjelńće městno čo. VII z prawym słowom.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S20", "question": "Napjelńće městno čo. VIII z prawym słowom.", "pred": 14}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S21", "question": "Napjelńće městno čo. IX z prawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S22", "question": "Napjelńće městno čo. X z prawym słowom.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S23", "question": "Napjelńće městno čo. XI z prawym słowom.", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "B2.2.S24", "question": "Napjelńće městno čo. XII z prawym słowom.", "pred": 9}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H01", "question": "Trudla Malinkowa je ...", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H1", "question": "K powołanju stawiznarki je Trudla Malinkowa přišła …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H2", "question": "Korjenje Trudle Malinkoweje w serbskej ewangelskej tradiciji …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H3", "question": "W starych cyrkwinskich knihach je Trudla Malinkowa pytała wotmołwu na prašenje …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H4", "question": "Čehodla je so w ewangelskich Serbach – na rozdźěl ke katolskim – serbšćina tak spěšnje zhubiła?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H5", "question": "Što bě zakład za knihu wo Mikławšu Andrickim?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H6", "question": "Trudla Malinkowa je měnjenja, zo potomnicy serbskich wupućowarjow …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H7", "question": "Što je Trudlu Malinkowu pohnuło, serbske pomniki inwentarizować?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H8", "question": "Trudla Malinkowa je so starała wo dokumentaciju pomnikow …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H9", "question": "Wo kotre pomniki je so Trudla Malinkowa w Rownom starała?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.H10", "question": "Što bě přinošk Trudle Malinkoweje k serbskim stawiznam?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L1", "question": "Wuzwolće k nadawkam jednu prawu wotmołwu.\nW kotrym teksće chowa so ironiski podzynk?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L2", "question": "Wuzwolće k nadawkam jednu prawu wotmołwu.\nW kotrym teksće so za inscenaciju wabi?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L3", "question": "Wuzwolće k nadawkam jednu prawu wotmołwu.\nW kotrym teksće zhladuje awtor na wuwićowe aspekty w hrě?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L4", "question": "Wuzwolće k nadawkam jednu prawu wotmołwu.\nKe kotremu tekstej hodźi so slědowacy titul: Při chmjelowej brěčce »jejko« wulahnyli?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L5", "question": "Wuzwolće k nadawkam jednu prawu wotmołwu.\nKe kotremu tekstej hodźi so slědowacy titul: Sebjereklama z plincami a nowym outfitom?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L6", "question": "Wuzwolće k nadawkam jednu prawu wotmołwu.\nKe kotremu tekstej hodźi so slědowacy titul: Horcy plincojo?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L7", "question": "Přirjadujće prózdnemu městnu I w teksće wotpowědne wurězki.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L8", "question": "Přirjadujće prózdnemu městnu II w teksće wotpowědne wurězki.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L9", "question": "Přirjadujće prózdnemu městnu III w teksće wotpowědne wurězki.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L10", "question": "Přirjadujće prózdnemu městnu IV w teksće wotpowědne wurězki.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L11", "question": "Awtor je dobreje mysle, zo su jeho předstawy realizujomne.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L12", "question": "Přinošk wotbłyšćuje indirektnje, w kotrych dypkach serbskorěčne kubłanje tuchwilu zapraja.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L13", "question": "W teksće wuswětleja so zakładne principy šule, kotraž budźe so za někotre lěta załožić.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L14", "question": "Załoženje jeničkeje šule ma delnjoserbšćinu wuchować.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L15", "question": "Rozsudźće, hač wotpowědujetej zjeći tekstej (prawje) abo nic (wopak).", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L16", "question": "Rozsudźće, hač wotpowědujetej zjeći tekstej (prawje) abo nic (wopak).", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L17", "question": "Čehodla njetworja stawizny Słowjanow hłowne ćežišćo wustajeńcy Radušanskeho muzeja?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L18", "question": "Na čim so K. Schlichting postorkuje?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L19", "question": "Kotre faktory maja po wuprajenju K. Schlichting wliw na wułožowanje namakankow?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L20", "question": "Čehodla je sej K. Schlichting wěsta, zo njejednaše so pola šćerkawow wo dźěćace hrajki?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L21", "question": "Za čo su so šćerkawy po měnjenju K. Schlichting wužiwali?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L22", "question": "Kotre twjerdźenje chce archeologowka w swojim přednošku wuwróćić?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.L23", "question": "Kotre swoje přeswědčenje chce K. Schlichting w přednošku předstajić?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S1", "question": "Wuzwolće ze zhromadneho poskitka a do ć prawe słowo, kiž ma samsny woznam kaž wuzběhnjene słowo.\n", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S2", "question": "Wuzwolće ze zhromadneho poskitka a do ć prawe słowo, kiž ma samsny woznam kaž wuzběhnjene słowo.\n", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S3", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S4", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S5", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S6", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S14", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S15", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S16", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S17", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S18", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S19", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S20", "question": "Wuzwolće wotpowědnu słownu skupinu respektiwnje słowo, kiž so do prózdneho městna hodźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S21", "question": "Wuzwolće z poskitka 1 do 3 prawu sadu, kotraž ma hinaši woznam hač prěnjotna sada.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S22", "question": "Wuzwolće z poskitka 1 do 3 prawu sadu, kotraž ma hinaši woznam hač prěnjotna sada.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S23", "question": "Wuzwolće tekst, kiž zwuraznja ironiju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S24", "question": "Wuzwolće tekst, kotryž pochadźa z wědomostneje publikacije.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_hsb", "question_id": "C1.1.S25", "question": "Wuzwolće tekst, kotrehož formulacije su wopisanej situaciji njepřiměrjene.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H01", "question": "Chto jo ceptaŕka?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H1", "question": "Kněz Šuman jo", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H2", "question": "Kak stare su źowća?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H3", "question": "Źo bydli syn?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H4", "question": "Co jo w Nowem Casniku?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H5", "question": "Źo jo Juro?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H6", "question": "Źo bydli Sandy?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H02", "question": "Za kurs trjebamy słownik.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H7", "question": "Koncert jo źinsa w Dešnje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H8", "question": "Familijowy źeń jo stwórtk. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H9", "question": "Žołta papjera jo w regalu.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H10", "question": "Evelin ma tśi źiśi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H11", "question": "Jubilejny zapust jo", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H12", "question": "Kněni Wölkowa ma telefonowe cysło", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H13", "question": "Kněz Siatkowski filmujo", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H14", "question": "Program gótuju ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.H15", "question": "Fyzioterapija", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L2", "question": "Pšawa replika jo:", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L6", "question": "Anna ma narodny źeń.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L7", "question": "Anna rad njespiwa. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L8", "question": "Jadwiga jo w źiśowni.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L9", "question": "Trening jo pśecej srjodu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L10", "question": "Lisa njetreněrujo.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L03", "question": "Dolnoserbska biblioteka jo w Serbskem domje.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L11", "question": "W źiśowni jo familijowy źeń.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L12", "question": "Srjodu sekretaŕka njeźěła.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L13", "question": "Krimi grajo w Budyšynje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L14", "question": "Nowy kurs serbšćiny jo wałtoru.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A1.2.L15", "question": "Nowa praktikantka jo w źiśowni pónjeźele a stwórtk.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H01", "question": "W kótarej śpě móžośo kněza Kosaka namakaś?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H1", "question": "Wjele płaśi dwójna CD?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H2", "question": "Ga jěźo śěg do Pragi?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H3", "question": "Co gósć wobjedujo?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H4", "question": "Cogodla synašk płaco?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H5", "question": "Kak dłujko ma kolegina dowol?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H6", "question": "Co dej Monika na blido stajiś?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H02", "question": "Pratyja ma premjeru 6. oktobera. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H7", "question": "Wšykne knigły za źiśi su za poł płaśizny. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H8", "question": "Kupka se zmakajo pó pśestawce w gósćeńcu. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H9", "question": "Rěcny campus jo w kjarcmje.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H10", "question": "5. maj wósebna akcija wěcej njepłaśi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H11", "question": "Handyjowe cysło jo:", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H12", "question": "Źo jo Jan?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H13", "question": "Kak dłujko co Jan hyšći cakaś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H14", "question": "Ga jo nowy termin kněni Lehmannoweje? ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.H15", "question": "Co jo dokusow? ", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L01", "question": "Katarina jo na kurje w Bad Sulza. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L1", "question": "Katarina powěda serbski. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L2", "question": "Katarina powěda teke ruski a polski.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L3", "question": "Isabell jě rada tomaty.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L4", "question": "Trjebamy žonop, twarog a butru. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L5", "question": "Rybu dejmy pěśnasćo minutow pjac.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L11", "question": "Ben jo pětk w indiskem gósćeńcu wobjedował. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L12", "question": "Wjacor jo Ben z pśijaśelami na disko šeł.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L13", "question": "Sobotu wokoło połdnja jo Maja zazwóniła. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L14", "question": "Ben jo z Maju do Serbskego muzeuma šeł.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "A2.2.L15", "question": "Njeźelu jo Ben wjele fotografěrował.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H1", "question": "Měto jo drugi raz nan.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H2", "question": "Sabina jo gromaźe z cłowjekom do Indiskeje jěła.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H3", "question": "Frycoju jo se woglěd w źiwadle derje spódobał.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H4", "question": "Uta ma swójsku firmu.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H5", "question": "Tanja jo měła lětosa swajźbu.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H16", "question": "Ga jo zubnogójcojska praksa zacynjona?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H17", "question": "Co jo cil drogowanja?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H18", "question": "Z kótareje rěcy jo Marina Tarantowa roman pśestajiła?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H19", "question": "Co dej se na Górach twariś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.H20", "question": "Kak cesto zarědujo Domowina folklorny festiwal?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L1", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L2", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 5}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L3", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L4", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L5", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L6", "question": "Chóśebuz ma synagogu, kótaraž", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L7", "question": "Cłonki źinsajšneje žydojskeje wósady ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L8", "question": "Simon Shkolnik jo ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L9", "question": "Žydojski swěźeń jom kipur ", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.L10", "question": "Žydojska wósada glěda na tradicije a", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S1", "question": "Napołni městno co. I z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S2", "question": "Napołni městno co. II z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S3", "question": "Napołni městno co. III z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S4", "question": "Napołni městno co. IV z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S5", "question": "Napołni městno co. V z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S6", "question": "Napołni městno co. VI z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S7", "question": "Napołni městno co. VII z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S8", "question": "Napołni městno co. VIII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S9", "question": "Napołni městno co. IX z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S10", "question": "Napołni městno co. X z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S11", "question": "Napołni městno co. XI z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S12", "question": "Napołni městno co. XII z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S13", "question": "Napołni městno co. I z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S14", "question": "Napołni městno co. II z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S15", "question": "Napołni městno co. III z pšawym słowom.", "pred": 15}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S16", "question": "Napołni městno co. IV z pšawym słowom.", "pred": 9}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S17", "question": "Napołni městno co. V z pšawym słowom.", "pred": 14}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S18", "question": "Napołni městno co. VI z pšawym słowom.", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S19", "question": "Napołni městno co. VII z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S20", "question": "Napołni městno co. VIII z pšawym słowom.", "pred": 11}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S21", "question": "Napołni městno co. IX z pšawym słowom.", "pred": 16}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S22", "question": "Napołni městno co. X z pšawym słowom.", "pred": 13}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S23", "question": "Napołni městno co. XI z pšawym słowom.", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B1.2.S24", "question": "Napołni městno co. XII z pšawym słowom.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H1", "question": "Suchoty dla dajo lětosa we wokrejsu Sprjewja-Nysa wjelgin špatne žni. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H2", "question": "W pśichodnych lětach změjo Załožba za serbski lud 500 000 euro mjenjej k dispoziciji, musy pak źeń a wěcej serbskorěcnych digitalnych projektow realizěrowaś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H3", "question": "Stara dolnoserbska biblija jo we wšakorakich pisańskich wariantach w interneśe pśistupna. ", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H4", "question": "Serbski ludowy ansambl buźo w pśichodnej sezonje wjelgin wjelebocne programy we Łužycy a w drugich regionach pśedstajiś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H5", "question": "Glědajucy na wjedro su w Žylowje dobre wuměnjenja za wuběźowanje w motocrossu. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H16", "question": "Co muse jězdźarje na zwězkowej droze mjazy Picnjom a Chóśebuzom wěźeś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H17", "question": "Cogodla deje wobydlarje Grodka wokna a źurja zacyniś?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H18", "question": "Co jo se stało pśi Złykomorojskem jazorje?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H19", "question": "Co musym cyniś, gaž něchten jo mě wót awta wukšadnuł numerowu šyltku?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.H20", "question": "Za kótarymi telefonatami musym wósebnje glědaś?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L1", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L2", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L3", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L4", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 9}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L5", "question": "Rozsuźćo, kótare nadpismo góźi se nejlěpjej ku kótaremu tekstoju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L6", "question": "Wósebnosć měsćańskego źěla Złego Komorowa jo, až", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L7", "question": "Pśi realizěrowanju sedlišća Marga njejo architekt", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L8", "question": "Ku sedlišću Marga jo słušało, až", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L9", "question": "Pśi wuwiwanju struktury sedlišća", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L10", "question": "Brunicowa jama jo", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L11", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L12", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L13", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L14", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L15", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L16", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L17", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L18", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L19", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L20", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L21", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.L22", "question": "Rozsuźćo, kótary tekst se nejlěpjej ku kótarej situaciji góźi.", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S1", "question": "Napołni městno co. I z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S2", "question": "Napołni městno co. II z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S3", "question": "Napołni městno co. III z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S4", "question": "Napołni městno co. IV z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S5", "question": "Napołni městno co. V z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S6", "question": "Napołni městno co. VI z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S7", "question": "Napołni městno co. VII z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S8", "question": "Napołni městno co. VIII z pšawym słowom.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S9", "question": "Napołni městno co. IX z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S10", "question": "Napołni městno co. X z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S11", "question": "Napołni městno co. XI z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S12", "question": "Napołni městno co. XII z pšawym słowom.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S13", "question": "Napołni městno co. I z pšawym słowom.", "pred": 13}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S14", "question": "Napołni městno co. II z pšawym słowom.", "pred": 8}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S15", "question": "Napołni městno co. III z pšawym słowom.", "pred": 15}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S16", "question": "Napołni městno co. IV z pšawym słowom.", "pred": 16}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S17", "question": "Napołni městno co. V z pšawym słowom.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S18", "question": "Napołni městno co. VI z pšawym słowom.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S19", "question": "Napołni městno co. VII z pšawym słowom.", "pred": 11}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S20", "question": "Napołni městno co. VIII z pšawym słowom.", "pred": 14}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S21", "question": "Napołni městno co. IX z pšawym słowom.", "pred": 7}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S22", "question": "Napołni městno co. X z pšawym słowom.", "pred": 6}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S23", "question": "Napołni městno co. XI z pšawym słowom.", "pred": 10}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "B2.2.S24", "question": "Napołni městno co. XII z pšawym słowom.", "pred": 9}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H01", "question": "Trudla Malinkowa jo ...", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H1", "question": "K pówołanju stawiznaŕki jo Trudla Malinkowa pśišła …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H2", "question": "Korjenje Trudle Malinkoweje w serbskej ewangelskej tradiciji …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H3", "question": "Trudla Malinkowa jo w starych cerkwinych knigłach něga serbskich wósadow …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H4", "question": "Cogodla su se ewangelske Serby malsnjej asimilěrowali ako katolske?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H5", "question": "Co jo był zakład za knigły wó Mikławšu Andrickem?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H6", "question": "Trudla Malinkowa jo měnjenja, až pótomniki serbskich wudrogowarjow …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H7", "question": "Co jo Trudlu Malinkowu pógnuło, serbske pomniki inwentarizěrowaś?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H8", "question": "Trudla Malinkowa jo se starała wó inwentarizěrowanje pomnikow …", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H9", "question": "Wó kótare pomniki jo se w Rownem starała?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.H10", "question": "Co jo był pśinosk Trudle Malinkoweje k serbskim stawiznam?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L1", "question": "Wuzwólśo k nadawkam jadno pšawe wótegrono.\nW kótarem teksće se chowa ironiski pódzuk?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L2", "question": "Wuzwólśo k nadawkam jadno pšawe wótegrono.\nW kótarem teksće se wabi za inscenaciju?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L3", "question": "Wuzwólśo k nadawkam jadno pšawe wótegrono.\nW kótarem teksće glěda awtor na wuwiśowe aspekty w graśu?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L4", "question": "Wuzwólśo k nadawkam jadno pšawe wótegrono.\nKu kótaremu tekstoju pasujo slědujucy titel: Pśi chmjelowej mězdze »jajko« wulagnuli?", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L5", "question": "Wuzwólśo k nadawkam jadno pšawe wótegrono.\nKu kótaremu tekstoju pasujo slědujucy titel: Sebjereklama z mlincami a nowym outfitom?", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L6", "question": "Wuzwólśo k nadawkam jadno pšawe wótegrono.\nKu kótaremu tekstoju pasujo slědujucy titel: Góruce mlince?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L11", "question": "Awtor jo dobreje mysli, až daju se jogo pśedstajenja realizěrowaś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L12", "question": "Pśinosk wótbłyšćujo indirektnje, w kótarych dypkach serbskorěcne kubłanje tuchylu njedocynijo. ", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L13", "question": "W teksće wobswětluju se zakładne principy planowaneje noweje šule.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L14", "question": "Załoženje jadnučkeje šule dej dolnoserbsku rěc zachowaś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L15", "question": "Awtor pśinoska napomina, se wuskoboźiś za napšawdne rozwažowanje wutwórjenja wósebneje dolnoserbskeje zakładneje šule. Z takeju zwězujo naźeju, až se raźijo dolnoserbsku rěc zasej wóžywiś a licbu luźi, kótarež ju ceło pśirodnje wšednje wužywaju, bytostnje pówětšyś. Kradu wěcownje rozkładujo swóje pśedstajenja wó napšawach, z kótarymiž by se toś ten zaměr mógał dojśpiś – pokazujucy pak teke na to, až jo same dopołnjenje wuměnjenjow južo wupominajuce pśedewześe. Jo pśeznanjony, až se jadna wó wobśěžnu, ale jadnučku drogu zgubjenju dolnoserbskeje rěcy zadoraś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L16", "question": "W pśinosku wužyjo awtor góźbu, aby na to pokazał, kak dejała dolnoserbska zakładna šula pšawje źěłaś, jolic až dej se serbska rěc w Bramborskej wobchowaś a wóžywiś. Lěcrownož se tuchylu prakticěrowana rozměra serbski pódawaneje wucby jano skrotka njepósrědnje narěznjo a šwika, zawóstajijo pśinosk zaśišć, až se awtor na doněntejšnem póstupowanju w serbskorěcnem kubłanju zwusoka póstarcyjo. Rownocasnje póbitujo kopicu myslickow, kótarež pórucujo ako doprědkaŕske a doněntejšne njedostatki wótpórajuce. Jich realizěrowanje by atraktiwnosći dolnoserbskeje šule a rěcy pśinosowało.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L17", "question": "Cogodla njetwórje stawizny Słowjanow głowne śěžyšćo wustajeńce Radušańskego muzeuma?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L18", "question": "Na com se K. Schlichting póstarkujo?", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L19", "question": "Kótare faktory maju pó wugronjenju K. Schlichting wliw na wukładowanje namakankow?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L20", "question": "Cogodla jo se K. Schlichting wěsta, až njejo se pśi šćerkotawach wó źiśece grajki jadnało?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L21", "question": "Za co su se šćerkotawy pó měnjenju K. Schlichting wužywali?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L22", "question": "Wó kótarem twarźenju co archeologowka w swójom pśednosku dopokazaś, až njejo pšawe?", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.L23", "question": "Kótare pśeznanjenje co K. Schlichting w pśednosku pśedstajiś?", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S1", "question": "Wuzwólśo z opcijow se góźece słowo, kenž ma samski wóznam ako wuzwignjone słowo.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S2", "question": "Wuzwólśo z opcijow se góźece słowo, kenž ma samski wóznam ako wuzwignjone słowo.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S3", "question": "Wuzwólśo z njogo se góźecu słownu kupku respektiwnje słowo, kenž do proznego městna pasujo.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S4", "question": "Wuzwólśo z njogo se góźecu słownu kupku respektiwnje słowo, kenž do proznego městna pasujo.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S5", "question": "Wuzwólśo z njogo se góźecu słownu kupku respektiwnje słowo, kenž do proznego městna pasujo.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S6", "question": "Wuzwólśo z njogo se góźecu słownu kupku respektiwnje słowo, kenž do proznego městna pasujo.", "pred": 4}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S14", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S15", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S16", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S17", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S18", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S19", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S20", "question": "Wuzwólśo z opcijow se góźecy wuraz, kenž sadu korektnje dopołnijo.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S21", "question": "Mamy drje w kubłańskem systemje wót góletkownje až k uniwersiśe dobry zakład, nam pak njejo móžno, z jogo pomocu pótrjebje na serbskorěcnem pedagogiskem personalu wótpowědowaś.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S22", "question": "Romski kejžor bu za kśebjatom senatorow wót swójich falšnych pśijaśelow zamordowany, lěcrownož jo se wětšyna senatorow pó dłujkej debaśe pśeśiwo tomu rozsuźiła.", "pred": 2}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S23", "question": "Wuzwólśo tekst, kenž zwuraznja ironiju.", "pred": 1}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S24", "question": "Wuzwólśo tekst z wědomnostneje publikacije.", "pred": 3}
+{"dataset_id": "wmt2026_lrllm_test_qa_dsb", "question_id": "C1.1.S25", "question": "Wuzwólśo tekst, kótaryž ma za wopisanu situaciju njepśigódny stil.", "pred": 2}

@@ -1,0 +1,22 @@
+{
+ "wmt26lowres-01-mt-sb.jsonl": {
+  "rows": 26174,
+  "sha256": "f639d29d6cdda312c3abea02a6a929f8b196988107962eb82bf6fc7793c9f377"
+ },
+ "wmt26lowres-02-qa-sb.jsonl": {
+  "rows": 415,
+  "sha256": "cb45d5dc04d517174afc9bf6e467da236a4e80c1556e1d4c174902908e703318"
+ },
+ "wmt26lowres-03-sc-sb.jsonl": {
+  "rows": 4000,
+  "sha256": "3131f432f4a8a8bd3199761ac236feb3e68b2cbdd063016d13d2b2653c9e9112"
+ },
+ "wmt26lowres-04-gc-sb.jsonl": {
+  "rows": 3726,
+  "sha256": "698d6356113dba16bf7fe8454b81f58fbca8f002da1e42e30360fa2a259ac534"
+ },
+ "wmt26lowres-05-mr-sb.jsonl": {
+  "rows": 500,
+  "sha256": "2df1c79c3d083870405c20eb94a9c6a5205964157438fecd785b363b229f9799"
+ }
+}

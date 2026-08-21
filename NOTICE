@@ -1,0 +1,10 @@
+wmt26-lt3-sorbian (LT3, Ghent University)
+
+Third-party components fetched at setup time, NEVER vendored in this repository:
+- soblex (Upper Sorbian) and dsb-spell (Lower Sorbian) morphological lexicons: GPL v2,
+  downloaded from their source repositories by scripts/setup.sh.
+- WMT26 shared-task data (train/dev/test): fetched from the organizers' official
+  distribution (https://github.com/TUM-NLP/llms-limited-resources2026).
+- Model weights: https://huggingface.co/TomMoeras/wmt26-lt3-sorbian (public).
+- Retrieval pools and generated datasets: HuggingFace datasets (see data/fetch_pools.py).
+This repository's own code is Apache-2.0 (see LICENSE).

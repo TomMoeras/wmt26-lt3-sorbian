@@ -1,0 +1,17 @@
+{
+ "dataset_name": "Sorbian transfer parallel (related-language pivot)",
+ "status": "allowed",
+ "retrieved_at": "2026-06-02",
+ "source": "OPUS via mtdata 0.5.1 (kde4, ubuntu, tatoeba, translatewiki-2025, wikimedia), merged+deduped+compressed",
+ "note": "Not official directions; for cross-lingual transfer. pol/ces are close West-Slavic; eng as pivot.",
+ "pairs": {
+  "pol-hsb": 41711,
+  "eng-hsb": 44631,
+  "ces-hsb": 19113,
+  "eng-dsb": 875,
+  "ces-dsb": 199,
+  "pol-dsb": 158
+ },
+ "files_per_pair": "transfer/<pair>/train.<l1>.gz + train.<l2>.gz + train.meta.jsonl.gz",
+ "license_note": "OPUS via mtdata 0.5.1 (kde4, ubuntu, tatoeba, translatewiki-2025, wikimedia). Per-corpus open licenses (Tatoeba CC-BY 2.0 FR; KDE4/Ubuntu GPL-family; translatewiki/wikimedia CC-BY-SA); see opus.nlpl.eu. Auxiliary transfer only; used research-use."
+}

@@ -1,0 +1,39 @@
+{
+ "dataset_name": "Upper Sorbian monolingual",
+ "status": "allowed",
+ "retrieved_at": "2026-06-01",
+ "license": "open (attribution where required)",
+ "files": [
+  {
+   "name": "hsb_monolingual_2026.csv",
+   "lines": 512672,
+   "split": "mono",
+   "notes": "TUM-shipped"
+  },
+  {
+   "name": "sorbian_institute_monolingual.hsb.gz",
+   "lines": 339822,
+   "split": "mono"
+  },
+  {
+   "name": "witaj_monolingual.hsb.gz",
+   "lines": 222027,
+   "split": "mono"
+  },
+  {
+   "name": "web_monolingual.hsb.gz",
+   "lines": 134422,
+   "split": "mono",
+   "notes": "noisy web scrape"
+  },
+  {
+   "name": "HSB_monolingual.txt.gz",
+   "lines": 436579,
+   "split": "mono"
+  }
+ ],
+ "notes": "Symlinks. Dedupe before training.",
+ "url": "https://github.com/TUM-NLP/llms-limited-resources2026.git",
+ "url_provenance": "organizer_distribution",
+ "url_note": "The file actually used by the system is the organiser-shipped *_monolingual_2026.csv from the shared-task data repo (vendored). Other listed files were not used by the submitted pipeline."
+}

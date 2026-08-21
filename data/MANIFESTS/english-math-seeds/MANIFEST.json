@@ -1,0 +1,13 @@
+{
+  "dataset_name": "English math seeds — GSM8K + MATH + MathQA",
+  "status": "allowed (translation required before MR use)", "retrieved_at": "2026-06-01",
+  "language": "en", "constraint": "PolyMath banned (any form). These are not PolyMath.",
+  "datasets": [
+    {"name": "gsm8k", "huggingface_dataset": "openai/gsm8k", "license": "CC BY 4.0", "splits": {"main/train": 7473, "main/test": 1319}},
+    {"name": "math", "huggingface_dataset": "EleutherAI/hendrycks_math", "license": "MIT", "splits": {"train_total": 7500, "test_total": 5000}},
+    {"name": "math-hard", "huggingface_dataset": "lighteval/MATH-Hard", "license": "MIT"},
+    {"name": "math500", "huggingface_dataset": "HuggingFaceH4/MATH-500", "license": "MIT", "splits": {"test": 500}},
+    {"name": "math_qa", "upstream_url": "https://math-qa.github.io/math-QA/data/MathQA.zip", "license": "Apache-2.0", "splits": {"train": 29837, "dev": 4475, "test": 2985, "challenge_test": 604}}
+  ],
+  "linkage": ["uk/mr/english-seeds", "sorbian/mr/english-seeds"]
+}

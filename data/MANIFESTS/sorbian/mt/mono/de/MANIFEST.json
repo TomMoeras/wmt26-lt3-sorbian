@@ -1,0 +1,11 @@
+{
+  "dataset_name": "German monolingual (for back-translation into hsb/dsb)", "status": "allowed", "retrieved_at": "2026-06-02",
+  "purpose": "Back-translate de -> hsb/dsb with our own MT model to create synthetic parallel data.",
+  "files": [
+    {"name": "leipzig_deu_wikipedia_2021_1M-sentences.txt", "lines": 1000000, "language": "de", "source": "Leipzig deu_wikipedia_2021_1M", "format": "id<TAB>text (strip id col)", "license": "CC BY-NC (Leipzig)"},
+    {"name": "leipzig_deu_news_2024_1M-sentences.txt", "lines": 1000000, "language": "de", "source": "Leipzig deu_news_2024_1M", "format": "id<TAB>text"},
+    {"name": "leipzig_deu_news_2023_1M-sentences.txt", "lines": 1000000, "language": "de", "source": "Leipzig deu_news_2023_1M", "format": "id<TAB>text"},
+    {"name": "statmt_news.2023.de.gz", "lines": 38364127, "language": "de", "source": "Statmt news-crawl 2023 (data.statmt.org/news-crawl/de)", "format": "one sentence/line, shuffled+deduped", "notes": "Large scale pool; subsample for back-translation. Symlink into shared/statmt-newscrawl/."}
+  ],
+  "notes": "3M clean domain-varied German (wiki+news) as the curated BT pool; 38.4M news-crawl as the scale pool. Pick a subset matched to compute when back-translating."
+}

@@ -1,0 +1,55 @@
+{
+  "purpose": "Regeneration recipe for every synthetic / back-translation-derived dataset used (or trialled) in this system. Scripts are in-repo; seed corpora are MANIFESTed; hashes below identify the exact artifacts produced.",
+  "note": "Shipped-lineage artifacts only: the primary system's training data (0/1 uniform scheme, authentic-only training retrieval; inference retrieves k=3 fuzzy exemplars from the full authentic+BT pool). Superseded 0/3-era and failed-lever entries were pruned with the repo's primary-only slimming (2026-08-21); see git history.",
+  "artifacts": [
+    {
+      "name": "MT fuzzy training rows (v5 mix) -- CORRECTED 2026-08-17",
+      "generator": "training/generators/composition.py + training/generators/build_training_set.py (June/Phase-1b full-size compfz build; working-repo src/data/composition.py + src/data/build_training_set.py)",
+      "settings": "REAL-ONLY parallel data (no BT rows); 0/1 uniform prompt scheme: seeded 50% carrier mask (seed 42), carriers get ONE top-1 fuzzy exemplar retrieved from the real-only pool, rest zero-shot",
+      "path": "phase1b/dataset_fullsize_fuzzy/compfz/messages_training.jsonl (cluster artifact)",
+      "rows": 1069344,
+      "sha256": "51e2a217a00bc4051e0b98b9b238f85340c0bd36f4d1a17f76dd49cb2051fe43",
+      "correction_note": "Previous entry (build_mt_fuzzy_full.py, tm_realbt, 50% k=3, 764668 rows, sha256 ea151c71...) described a superseded 0/3 build that was NOT the shipped training data. See docs/DISCLOSURES.md and the working repo's docs/paper/CORRECTION_2026-08-17.md.",
+      "sha256_source": "LFS hash of the published artifact (training/mt_fuzzy_compfz/messages_training.jsonl in the public dataset, uploaded from the shipped cluster artifact 2026-08-21)"
+    },
+    {
+      "name": "SC/GC/QA synthetic (v5 mix)",
+      "generator": "python -m src.data.synth.build generate --task {sc,gc,qa} --lang {hsb,dsb} --config configs/data/phase2_synth_full.yaml",
+      "settings": "seed corpus = vendored organiser mono CSVs; volumes SC/GC hsb 100k dsb 15k, QA hsb 60k dsb 12k"
+    },
+    {
+      "name": "MR training messages (Sorbian Q -> English CoT)",
+      "generator": "staged/phase5/mr_data/translate_mr_seeds.py",
+      "settings": "seeds = gsm8k + Hendrycks MATH (data/english-math-seeds, MANIFESTed); repetition_penalty 1.2; numeric + degeneracy filters",
+      "path": "staged/phase5/retrain/mr/messages_mr.jsonl",
+      "rows": 28147,
+      "sha256": "ed97d6b45b77d2d8c40320d78c400cb8370ebaf9f2f7983cb5f3efc42102a2ef"
+    },
+    {
+      "name": "v5 training mix -- CORRECTED 2026-08-17",
+      "generator": "v5 assembly with the compfz MT component (non-MT components unchanged)",
+      "settings": "shares MT 76.5% / MR 7.0% / SC 6.3% / GC 6.3% / QA 3.9% (recomputed after the MT swap; non-MT absolute allocations unchanged)",
+      "path": "TO-VERIFY-ON-CLUSTER (shipped mix artifact)",
+      "rows": 1397057,
+      "sha256": "TO-VERIFY-ON-CLUSTER",
+      "correction_note": "Previous entry (assemble_mix_v4.py, 1092381 rows, MT 70%) described the mix built on the superseded 0/3 MT component. Derived total = 1092381 - 764668 + 1069344."
+    },
+    {
+      "name": "v10 dev-fold rows",
+      "generator": "scripts/phase5/retrain/build_dev_fold.py",
+      "settings": "all five dev sets in OFFICIAL eval formats so training matches inference byte-for-byte",
+      "path": "staged/phase5/retrain/dev_fold.jsonl",
+      "rows": 31614,
+      "sha256": "d3f01494166fb2ddaf4d89d844d37b03ea2ef606b57f361cc9525807c41e0cb2"
+    },
+    {
+      "name": "v10 training mix -- CORRECTED 2026-08-17",
+      "generator": "v5 mix (corrected) + dev fold",
+      "settings": "v5 mix + dev fold",
+      "path": "TO-VERIFY-ON-CLUSTER (shipped mix artifact)",
+      "rows": 1428671,
+      "sha256": "TO-VERIFY-ON-CLUSTER",
+      "correction_note": "Previous entry (assemble_mix_v10.py, 1123995 rows) sat on the superseded 0/3-based v5 mix. Derived total = 1397057 + 31614."
+    }
+  ]
+}

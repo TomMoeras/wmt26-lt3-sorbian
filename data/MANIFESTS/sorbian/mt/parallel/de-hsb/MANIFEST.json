@@ -1,0 +1,55 @@
+{
+ "dataset_name": "de<->hsb parallel — WMT20-22 Unsup/Very-Low-Resource MT",
+ "status": "allowed",
+ "retrieved_at": "2026-06-01",
+ "source_repo": "mariondimarco/WMT22_UnsupVeryLowResMT_Data",
+ "git_revision": "3c71b5147b52adb9c2c8ab752babe53fa6690d5b",
+ "license": "research-use",
+ "files": [
+  {
+   "name": "train_de-hsb_2026.csv",
+   "lines": 23117,
+   "split": "train",
+   "notes": "TUM-shipped 2026 set"
+  },
+  {
+   "name": "HSB-DE_train.tsv.gz",
+   "lines": 301537,
+   "split": "train",
+   "notes": "2022 TSV"
+  },
+  {
+   "name": "HSB-DE_dev.tsv.gz",
+   "lines": 2001,
+   "split": "dev"
+  },
+  {
+   "name": "train.hsb-de.{de,hsb}.gz",
+   "lines": 60000,
+   "split": "train",
+   "notes": "2020"
+  },
+  {
+   "name": "train2021.hsb-de.{de,hsb}.gz",
+   "lines": 87521,
+   "split": "train",
+   "notes": "2021"
+  },
+  {
+   "name": "devtest.tar.gz",
+   "lines": 8000,
+   "split": "dev"
+  },
+  {
+   "name": "opus_train.{deu,hsb}.gz",
+   "lines": 47713,
+   "split": "train",
+   "source": "OPUS via mtdata (kde4,ubuntu,tatoeba,translatewiki-2025,wikimedia)",
+   "notes": "merged+deduped; overlaps WMT22/TUM, dedupe"
+  }
+ ],
+ "notes": "Symlinks. Vintages overlap; dedupe before training.",
+ "url": "https://github.com/mariondimarco/WMT22_UnsupVeryLowResMT_Data",
+ "url_provenance": "derived_from_source_repo",
+ "url_note": "Derived mechanically from source_repo='mariondimarco/WMT22_UnsupVeryLowResMT_Data'; not independently verified. Cite repo + git_revision (3c71b5147b52) as the authoritative pointer."
+}

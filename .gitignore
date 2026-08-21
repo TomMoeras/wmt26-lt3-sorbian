@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.cache/
+dicts/
+bktrees/
+pools/
+weights/
+outputs/
+organizer_data/
+pools_deduped_new/
+resources.yaml
+official_test_flat/

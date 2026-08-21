@@ -1,0 +1,14 @@
+{
+  "dataset_name": "Leipzig Corpora Collection — Sorbian Wikipedia", "status": "allowed", "retrieved_at": "2026-06-02",
+  "source_url": "https://downloads.wortschatz-leipzig.de/corpora/",
+  "license": "CC BY-NC (Leipzig); attribution required",
+  "files": [
+    {"name": "hsb_wikipedia_2016_30K", "lines": 30000, "language": "hsb"},
+    {"name": "hsb_wikipedia_2021_10K", "lines": 10000, "language": "hsb"},
+    {"name": "hsb_wikipedia_2018_10K", "lines": 10000, "language": "hsb"},
+    {"name": "hsb_wikipedia_2014_10K", "lines": 10000, "language": "hsb"},
+    {"name": "hsb_wikipedia_2010_10K", "lines": 10000, "language": "hsb"},
+    {"name": "dsb_wikipedia_2016_10K", "lines": 10000, "language": "dsb"}
+  ],
+  "notes": "Sentence files are id<TAB>text. The 30K/2021_10K (hsb) and 2016_10K (dsb) are copied as real files into sorbian/mt/mono/{hsb,dsb}/ (CIFS symlink EIO on long targets). Others remain in shared/leipzig-sorbian/."
+}

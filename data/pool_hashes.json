@@ -1,0 +1,14 @@
+{
+  "de_hsb.src": "563f6aed84ffe1cbd60cf67565f2b60405b9492199ba1a3d4e3c411bb026a3c1",
+  "de_hsb.tgt": "23a626f1b770bc6665b3af74eba542f2d399f9bb1b828e7b6744663f4b061bb8",
+  "hsb_de.src": "697094461f988dccaa1f344ab93523bb6ba8fe13efdf70d2df2a657b8a9aa3c1",
+  "hsb_de.tgt": "6c38149737342c859ac395cd365cafc87e7ee49bb799985b8ec9bbbac8ff85c7",
+  "de_dsb.src": "622755503a8601c95dfdda3b7a0bebc57de1b8ce0c080c65ed4830f6dcfee974",
+  "de_dsb.tgt": "7c82d71de19cc7175211a1d3b28926ed532bd2d9aea05b422c18a9aa9dcbff67",
+  "dsb_de.src": "430dd00fcc05853d281814a3ba7c1501fb906b47691e8a921d02b898cbd0d433",
+  "dsb_de.tgt": "6460213b3c29394c79cea698bfa22ce35477779bd7bbfa02a386308529e6e269",
+  "hsb_dsb.src": "2c1d16a0778fbe45d1b0a522d9b1f88f4bcc99798acd98f0c5fbc98f7e581430",
+  "hsb_dsb.tgt": "ffdd4db9f8f35d32fd119c3bcafcfd5a3f9cd785d6464a22385385b51ee2cb5f",
+  "dsb_hsb.src": "adfa7dc13178af2d275ebac57d62aadce8e5a99cdbe4675dec064da76eebec54",
+  "dsb_hsb.tgt": "0d285bd68a9546bc30910bfb443b7de500b3c550d50206b7c558ac3259bb8b20"
+}

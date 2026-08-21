@@ -1,0 +1,37 @@
+{
+ "dataset_name": "hsb<->dsb parallel — WMT22 Very-Low-Resource MT",
+ "status": "allowed",
+ "retrieved_at": "2026-06-01",
+ "source_repo": "mariondimarco/WMT22_UnsupVeryLowResMT_Data",
+ "git_revision": "3c71b5147b52adb9c2c8ab752babe53fa6690d5b",
+ "license": "research-use",
+ "files": [
+  {
+   "name": "train_hsb-dsb_2026.csv",
+   "lines": 67846,
+   "split": "train",
+   "notes": "TUM-shipped 2026 set"
+  },
+  {
+   "name": "train_dsb_hsb_62564.{dsb,hsb}.gz",
+   "lines": 62564,
+   "split": "train"
+  },
+  {
+   "name": "devtest_dsb_hsb_2022.tar.gz",
+   "lines": 2816,
+   "split": "dev"
+  },
+  {
+   "name": "opus_train.{dsb,hsb}.gz",
+   "lines": 1010,
+   "split": "train",
+   "source": "OPUS via mtdata",
+   "notes": "merged+deduped"
+  }
+ ],
+ "notes": "Symlinks.",
+ "url": "https://github.com/mariondimarco/WMT22_UnsupVeryLowResMT_Data",
+ "url_provenance": "derived_from_source_repo",
+ "url_note": "Derived mechanically from source_repo='mariondimarco/WMT22_UnsupVeryLowResMT_Data'; not independently verified. Cite repo + git_revision (3c71b5147b52) as the authoritative pointer."
+}

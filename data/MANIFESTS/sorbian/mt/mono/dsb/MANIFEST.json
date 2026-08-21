@@ -1,0 +1,33 @@
+{
+ "dataset_name": "Lower Sorbian monolingual",
+ "status": "allowed",
+ "retrieved_at": "2026-06-01",
+ "license": "open (Wikipedia portion CC-BY-SA)",
+ "files": [
+  {
+   "name": "dsb_monolingual_2026.csv",
+   "lines": 38029,
+   "split": "mono",
+   "notes": "TUM-shipped"
+  },
+  {
+   "name": "mono.dsb.gz",
+   "lines": 145198,
+   "split": "mono"
+  },
+  {
+   "name": "66408_DSB_monolingual.txt.gz",
+   "lines": 66407,
+   "split": "mono"
+  },
+  {
+   "name": "8815_DSB_wikipedia_2021.txt.gz",
+   "lines": 8814,
+   "split": "mono"
+  }
+ ],
+ "notes": "Symlinks. Dedupe before training.",
+ "url": "https://github.com/TUM-NLP/llms-limited-resources2026.git",
+ "url_provenance": "organizer_distribution",
+ "url_note": "The file actually used by the system is the organiser-shipped *_monolingual_2026.csv from the shared-task data repo (vendored). Other listed files were not used by the submitted pipeline."
+}

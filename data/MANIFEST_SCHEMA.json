@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WMT26 dataset MANIFEST",
+  "type": "object",
+  "required": ["dataset_name", "retrieved_at", "files"],
+  "properties": {
+    "dataset_name": {"type": "string"},
+    "status": {"type": "string"},
+    "retrieved_at": {"type": "string", "format": "date"},
+    "source_repo": {"type": "string"},
+    "source_repo_url": {"type": "string"},
+    "huggingface_dataset": {"type": "string"},
+    "git_revision": {"type": "string"},
+    "mtdata_recipe": {"type": "string"},
+    "license": {"type": "string"},
+    "files": {"type": "array", "items": {"type": "object",
+      "required": ["name"], "properties": {
+        "name": {"type": "string"}, "source_url": {"type": "string"},
+        "sha256": {"type": "string"}, "bytes": {"type": "integer"},
+        "lines": {"type": "integer"}, "split": {"type": "string"},
+        "language": {"type": "string"}, "language_pair": {"type": "string"}}}},
+    "schema": {"type": "object"}, "notes": {"type": "string"}
+  }
+}

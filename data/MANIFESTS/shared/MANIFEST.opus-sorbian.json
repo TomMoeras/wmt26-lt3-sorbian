@@ -1,0 +1,8 @@
+{
+  "dataset_name": "OPUS Sorbian parallel (mtdata)", "status": "allowed", "retrieved_at": "2026-06-02",
+  "mtdata_version": "0.5.1", "merge": true, "compress": true,
+  "official_directions": {"deu-hsb": 47713, "deu-dsb": 18469, "dsb-hsb": 1010},
+  "transfer_pairs": {"pol-hsb": 41711, "eng-hsb": 44631, "ces-hsb": 19113, "eng-dsb": 875, "ces-dsb": 199, "pol-dsb": 158},
+  "sources_per_pair": "all listed OPUS entries (kde4-v2, ubuntu-v14.10, tatoeba all versions, translatewiki-v20250101, wikimedia all versions)",
+  "notes": "Official-direction outputs symlinked into sorbian/mt/parallel/{de-hsb,de-dsb,hsb-dsb}/opus_train.*.gz; transfer outputs into sorbian/mt/parallel/transfer/<pair>/. Overlaps WMT22/TUM parallel — dedupe before training."
+}

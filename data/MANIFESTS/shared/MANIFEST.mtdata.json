@@ -1,0 +1,11 @@
+{
+  "dataset_name": "mtdata pulls — Phase E (2026-06-01, complete)", "status": "complete",
+  "retrieved_at": "2026-06-01", "mtdata_version": "0.5.1",
+  "recipes_dir": "shared/mtdata-recipes", "cache": "MTDATA on share (.mtdata-cache), not home",
+  "outputs": [
+    {"recipe": "wmt25-ces-ukr", "status": "complete", "merged_pairs": 17999871, "language_pair": "cs-uk", "mono_uk": true},
+    {"recipe": "wmt25-eng-ukr", "status": "complete", "merged_pairs": 176346602, "language_pair": "en-uk", "mono_uk": true},
+    {"recipe": "wmt22-uken", "status": "complete", "merged_pairs": 64875124, "language_pair": "en-uk", "mono_uk": false}
+  ],
+  "notes": "All merged+deduped+compressed. wmt22-ukcs not run (wmt25-ces-ukr is a superset). No quota incident this run — caches on the 2TB share."
+}

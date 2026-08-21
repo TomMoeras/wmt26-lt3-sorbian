@@ -1,0 +1,7 @@
+{
+  "dataset_name": "Leipzig Corpora — German/Polish/Czech 1M monolingual", "status": "allowed", "retrieved_at": "2026-06-02",
+  "source_url": "https://downloads.wortschatz-leipzig.de/corpora/", "license": "CC BY-NC (Leipzig); attribution required",
+  "corpora": ["deu_wikipedia_2021_1M","deu_news_2024_1M","deu_news_2023_1M","pol_wikipedia_2021_1M","ces_wikipedia_2021_1M"],
+  "lines_each": 1000000, "format": "*-sentences.txt is id<TAB>text",
+  "notes": "Sentences copied into sorbian/mt/mono/de and sorbian/mt/mono/transfer/{pol,ces} (CIFS symlink EIO on long Leipzig paths). Full extracted corpora (with aux files) kept here."
+}

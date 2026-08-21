@@ -1,0 +1,24 @@
+{
+ "dataset_name": "Related-language monolingual (Polish, Czech) for transfer",
+ "status": "allowed",
+ "retrieved_at": "2026-06-02",
+ "purpose": "Closest West-Slavic neighbours of Sorbian; useful for multilingual pretraining / pivot back-translation.",
+ "files": [
+  {
+   "name": "pol/leipzig_pol_wikipedia_2021_1M-sentences.txt",
+   "lines": 1000000,
+   "language": "pl",
+   "source": "Leipzig pol_wikipedia_2021_1M",
+   "format": "id<TAB>text"
+  },
+  {
+   "name": "ces/leipzig_ces_wikipedia_2021_1M-sentences.txt",
+   "lines": 1000000,
+   "language": "cs",
+   "source": "Leipzig ces_wikipedia_2021_1M",
+   "format": "id<TAB>text"
+  }
+ ],
+ "notes": "Optional/transfer signal. Czech is also a UK-task language (uk/mt/parallel/cs-uk).",
+ "license_note": "Leipzig Corpora Collection (pol/ces Wikipedia 2021 1M). Per Leipzig terms (CC-BY-NC 4.0; see wortschatz.uni-leipzig.de). Auxiliary transfer/pretraining only (non-core, not a Sorbian task set); used research-use. Confirm exact per-file terms at source."
+}

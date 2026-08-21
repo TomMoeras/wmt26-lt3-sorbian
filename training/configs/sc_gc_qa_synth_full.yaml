@@ -1,0 +1,88 @@
+# SC / GC / QA synthetic-data volumes config for Sorbian (hsb + dsb).
+#
+# Read by training/generators/synth/build.py. MR is OUT OF SCOPE here (see synth/mr.py).
+#
+# Ported verbatim except for this header comment (see docs/NAME_MAPPING.md for the internal
+# source path): the original documented the literal cluster DATA_ROOT value for reference;
+# that value is gone from build.py (see its module docstring) so ${DATA_ROOT} below must be
+# supplied via --data-root / the DATA_ROOT env var, pointing at the organizer distribution's
+# Sorbian root fetched by data/fetch_organizer_data.py (see resources.yaml.template's mono_dir).
+#
+# Mono sources (calibration §5): ranked high->low quality. Official 2026 CSVs first,
+# then the wmt22-unsup-data dumps. ${DATA_ROOT} and ${REPO} are expanded by build.py.
+#   REPO       = repository root
+#   DATA_ROOT  = organizer distribution's Sorbian data root (no default; see above)
+#
+# Usable dev-excluded mono after dedup + 3-40-token filter (calibration §5):
+#   HSB ~1.43M  ·  DSB ~191K  (DSB is the binding volume constraint everywhere).
+#
+# Volumes are DSB-bounded: dsb targets sized well under ~191K available; hsb larger.
+# Clean/error split is 50/50 for SC and GC (p_error 0.5). QA is all-MCQ (no clean rows).
+
+seed: 42
+
+# Ranked monolingual sources per language (high->low quality).
+mono_sources:
+  hsb:
+    - "${DATA_ROOT}/MT/hsb_monolingual_2026.csv"                                       # official 2026  (~496k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/sorbian_institute_monolingual.hsb.gz"           # sorbian institute (~335k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/witaj_monolingual.hsb.gz"                       # witaj (~209k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/HSB_monolingual.txt.gz"                         # wmt22 HSB (~433k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/web_monolingual.hsb.gz"                         # web scrape (lower; ~107k)
+  dsb:
+    - "${DATA_ROOT}/MT/dsb_monolingual_2026.csv"                                        # official 2026 (~35k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/mono.dsb.gz"                                    # mono.dsb (~129k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/66408_DSB_monolingual.txt.gz"                   # wmt22 DSB (~65k)
+    - "${DATA_ROOT}/../wmt22-unsup-data/8815_DSB_wikipedia_2021.txt.gz"                 # dsb wiki 2021 (small)
+
+# Dev sets to exclude against. For each task we also fold in ALL MT dev src/tgt strings.
+# Paths relative to REPO -- point these at your own organizer-distribution checkout
+# (e.g. "organizer_data/Sorbian/SC/hsb_sc_dev.jsonl"; see data/fetch_organizer_data.py).
+dev_sets:
+  sc:
+    hsb: "organizer_data/Sorbian/SC/hsb_sc_dev.jsonl"
+    dsb: "organizer_data/Sorbian/SC/dsb_sc_dev.jsonl"
+  gc:
+    hsb: "organizer_data/Sorbian/GC/hsb_gc_dev.jsonl"
+    dsb: "organizer_data/Sorbian/GC/dsb_gc_dev.jsonl"
+  qa:
+    hsb: "organizer_data/Sorbian/QA/hsb_qa_dev.jsonl"
+    dsb: "organizer_data/Sorbian/QA/dsb_qa_dev.jsonl"
+
+# MT dev files (src + tgt strings folded into every task's dev-exclusion set).
+mt_dev_files:
+  - "organizer_data/Sorbian/MT/de-hsb_mt_dev.jsonl"
+  - "organizer_data/Sorbian/MT/de-dsb_mt_dev.jsonl"
+  - "organizer_data/Sorbian/MT/hsb-dsb_mt_dev.jsonl"
+
+# Held-out synthetic-dev (pool.jsonl) size per task/lang -- usable as few-shot source.
+pool_size: 2000
+
+# ---------------------------------------------------------------------------
+# Per-task parameters. train_volume = number of train rows targeted (after pool
+# holdout); capped to available mono if the source is smaller.
+# ---------------------------------------------------------------------------
+tasks:
+  sc:
+    p_error: 0.5
+    volume:
+      hsb: 100000
+      dsb: 15000
+  gc:
+    p_error: 0.5
+    volume:
+      hsb: 100000
+      dsb: 15000
+  qa:
+    # QA is all-MCQ (cloze); no clean rows. Distractor vocab built from mono token
+    # frequencies (most-frequent alphabetic tokens, length >= 4, not a stopword).
+    volume:
+      hsb: 60000
+      dsb: 12000
+    distractor_vocab_size: 5000     # top-N frequent mono tokens used as distractor pool
+    # Option-count distribution by CEFR level (calibration §3). Probabilities sum to 1.
+    # We synthesise plain cloze MCQ; the 10/11/16-option ordering/matching items are
+    # out of scope for cloze (documented gap). Default mix ~ A1/A2/B-style 2-3 options.
+    n_options_dist:
+      "2": 0.45
+      "3": 0.55

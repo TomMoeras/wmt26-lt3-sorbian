@@ -1,0 +1,25 @@
+# Template for resources.yaml (deployment-specific filesystem paths, NOT fitted parameters --
+# see lt3wmt26/generate.py's `Resources` class docstring for the full semantics).
+#
+# `python3 data/fetch_organizer_data.py --out organizer_data/` fetches the organizer
+# distribution and writes a filled-in resources.yaml for you (see scripts/setup.sh). This
+# template exists so the expected shape is committed and reviewable even though the filled-in
+# file itself is gitignored (it points at machine-local paths under dicts/, pools/,
+# organizer_data/, none of which this repo vendors -- see NOTICE).
+
+dict_dir: dicts          # from data/fetch_dicts.py --out dicts/
+pool_dir: pools          # from data/fetch_pools.py --out pools/
+mono_dir: organizer_data/Sorbian/MT      # from data/fetch_organizer_data.py --out organizer_data/
+mr_dev_dir: organizer_data/Sorbian/MR    # from data/fetch_organizer_data.py --out organizer_data/
+
+# Directory of precomputed SC/GC BK-tree pickles (<lang>.bktree.pkl), from
+# `python3 -m lt3wmt26.build_bktree --dict-dir dicts/ --out bktrees/` (run by scripts/setup.sh
+# after the dictionaries are fetched, since the tree is built from their wordlists).
+#
+# REQUIRED to reproduce the primary submission: configs/primary.yaml sets sc.bktree: true, and
+# lt3wmt26/generate.py raises loudly if this key is unset (or the pickle is missing) while
+# sc.bktree is true, rather than silently running without the BK-tree candidates (see
+# docs/DISCLOSURES.md's sc-v2 note on what that silent failure once cost). Only the ablation
+# configs that set sc.bktree: false (fullstack_earlystop.yaml, fullstack_heldoutdev.yaml,
+# plain_devtransfer.yaml, plain_earlystop.yaml) can omit this key.
+bktree_dir: bktrees

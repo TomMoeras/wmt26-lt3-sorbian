@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the system description paper."
+title: "Getting More from Small LLMs: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP"
+authors:
+  - family-names: Moerman
+    given-names: Thomas
+  - family-names: Tezcan
+    given-names: Arda
+repository-code: "https://github.com/TomMoeras/wmt26-lt3-sorbian"
+license: Apache-2.0

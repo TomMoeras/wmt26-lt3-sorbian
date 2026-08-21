@@ -1,0 +1,7 @@
+{
+  "dataset_name": "Statmt news-crawl — German 2023", "status": "allowed", "retrieved_at": "2026-06-02",
+  "source_url": "https://data.statmt.org/news-crawl/de/news.2023.de.shuffled.deduped.gz",
+  "license": "WMT news-crawl terms (research use)",
+  "files": [{"name": "news.2023.de.shuffled.deduped.gz", "lines": 38364127, "language": "de"}],
+  "notes": "Large German BT scale pool. Symlinked into sorbian/mt/mono/de/statmt_news.2023.de.gz."
+}

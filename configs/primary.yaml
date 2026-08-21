@@ -1,0 +1,110 @@
+# LT3-FullStack-DevTransfer -- PRIMARY submission (S3).
+# Weights: v10gc @3500 (dev-integrated GC-rescue continuation, transfer-selected at v5gc's
+#          gold-dev optimum). Stack: composed + exemplars.
+#
+# Every fitted number below was extracted mechanically, not hand-typed -- see
+# the working repo's .superpowers/sdd/task-9-report.md Step 1 for the extraction script and its full output.
+# Sources, per field:
+#   weights.subfolder        -- docs/model_delivery/HF_README.md subfolder table
+#                                (LT3-DevTransfer -> sha256 264fc3b1... == SLATE.json
+#                                v10gc3500_composed_ex.weights_sha256)
+#   mt.exemplar_k             -- docs/model_delivery/README.md candidate table row for
+#                                v10gc3500_composed_ex: `--mt-exemplars 3`
+#   gc.witness (hsb/dsb w,t)  -- docs/model_delivery/README.md candidate table row for
+#                                v10gc3500_composed_ex: `--witness-params
+#                                '{"hsb":[0.1,0.42],"dsb":[0.4,0.76]}'` (re-fitted values for
+#                                the gc line; NOT the base-v5 t*=0.210/hsb(.1,.22)/dsb(.8,.74)
+#                                row in the same file's "Fitted parameters" table, which is
+#                                explicitly superseded for gc-line candidates per that table's
+#                                own note)
+#   gc.paradigm_cap / sc.paradigm_cap / engine.{batch,max_cand}
+#                             -- scripts/phase6/scgc_engine.py: `Engine.__init__(..., batch=96,
+#                                max_cand=24)` and the inline `hs.paradigm(word, cap=60)` (GC)
+#                                / `cap=30` (SC) call sites
+#   sc.topups.diacritic       -- scripts/phase6/apply_sc_diacritic.py: `MINF = {"dsb": 5}`
+#                                (docstring: "SHIP SET: dsb only... hsb is WITHHELD"); cross-
+#                                checked against docs/model_delivery/README.md's fitted-
+#                                parameter table row "SC diacritic top-up | dsb min_freq=5 ...
+#                                (hsb withheld)". Applied as part of the standard composed_ex
+#                                build recipe (docs/model_delivery/README.md step 2, "applied to
+#                                every composed candidate"), i.e. BEFORE the sc-v2 BK-tree fix
+#                                below, not a probe-day lever.
+#   sc.topups.nonword         -- scripts/phase6/apply_scv4_topup.py: `TAU = {"hsb": 0.30,
+#                                "dsb": 0.36}` ("deploy = full-fit on consistent dev
+#                                (sc_v4_devgate.json)"). Gated tau-per-lang, applied to items
+#                                STILL abstained after sc.bktree + sc.topups.diacritic above.
+#   sc.bktree                 -- results/submission/ocelot/sc-v2/ (Instr26a: "re-enabled
+#                                BK-tree edit-2 correction candidates, silently disabled in v1")
+#   seed                      -- scripts/phase6/blind_generate.py `--seed` default (Instr15,
+#                                post-submission global RNG seed; shipped bundles were unseeded)
+#
+# PROVENANCE OF THE SHIPPED PRIMARY SC FILE (byte-verified, see the working repo's .superpowers/sdd/task-9-report.md
+# fix section for the full diff): the actually-shipped primary SC file
+# (submissions/LT3-FullStack-DevTransfer/wmt26lowres-03-sc-sb.jsonl, sha256 3131f432...) is
+# byte-identical to results/submission/ocelot/final/UPLOAD_NOW_v2/5_SC_PROBE_v4.../
+# wmt26lowres-03-sc-sb-v4.jsonl -- i.e. it IS the sc-v4 tau-gated margin top-up (0-byte diff),
+# NOT the pre-topup sc-v2/v10gc3500_composed_ex baseline (a prior version of this file wrongly
+# concluded the opposite from a stale md5 comparison -- CORRECTED here). The chain is:
+#   engine (bktree enabled, sc.bktree) -> diacritic top-up (sc.topups.diacritic) ->
+#   margin top-up (sc.topups.nonword) = shipped primary.
+# sc-v3 (results/submission/ocelot/final/UPLOAD_NOW_v2/3_SC_PROBE.../wmt26lowres-03-sc-sb-v3.jsonl,
+# the GUARDED HSB DIACRITIC top-up) is explicitly NOT part of this chain: its own README
+# (same UPLOAD_NOW_v2 dir) says sc-v4 "Supersedes sc-v3's diacritic-only candidates" and sc-v4's
+# provenance is "scv2_work + apply_scv4_topup.py" (built from sc-v2 directly, not from sc-v3).
+# Empirically confirmed: of sc-v3's 69 hsb diacritic edits (vs sc-v2), 40/69 are completely
+# ABSENT from the shipped v4 file (reverted exactly to the sc-v2 value) -- impossible if v4 had
+# been built on top of v3, since margin_topup only ever fires on items still "CORRECT" and can
+# never un-fire an already-applied diacritic edit. Only 27/69 happen to coincide (the engine's
+# own margin-based candidate independently landing on the same fix), and 2/69 are overridden
+# with a third value. sc-v3 is therefore a rejected sibling probe, not enabled anywhere here.
+
+system_name: LT3-FullStack-DevTransfer
+weights:
+  hf_repo: TomMoeras/wmt26-lt3-sorbian
+  subfolder: LT3-DevTransfer
+stack: composed
+
+mt:
+  decode: greedy              # MBR was gated on gold dev and rejected: mean -0.38
+  exemplar_k: 3
+  pool: deduped_realbt        # retrieval/pool.py output; test-set-leakage-verified (residual=0)
+
+qa:
+  slot_scorer: true            # in-place slot scorer: shared-option blocks -> Hungarian
+                               # assignment (qa_slot_scorer.solve_block); per-slot -> argmax
+
+gc:
+  union: true                  # v5-flag-kept + engine correction, else engine-solo iff
+                               # margin + w*witness >= t, else CORRECT (lt3wmt26.gc_union)
+  paradigm_cap: 60
+  witness:
+    hsb: {w: 0.1, t: 0.42}
+    dsb: {w: 0.4, t: 0.76}
+
+sc:
+  bktree: true                 # BK-tree edit-distance candidates (lt3wmt26.sc_gc_engine.Engine)
+  paradigm_cap: 30
+  topups:
+    diacritic:
+      dsb: {enabled: true, min_freq: 5}
+      hsb: {enabled: false}     # withheld: gold dev +.0388 but silver test -.0267 even guarded
+    nonword:                    # apply_scv4_topup.py's tau-gated engine-margin top-up (sc-v4,
+                                 # the shipped primary's lever); fires on items still abstained
+                                 # after the diacritic top-up above
+      enabled: true
+      tau_hsb: 0.30
+      tau_dsb: 0.36
+
+engine:
+  batch: 96
+  max_cand: 24
+
+mr:
+  retry_ladder: true            # 3-stage empty-answer retry (lt3wmt26.mr_pipeline.retry_ladder)
+  postformat: true              # dollar-wrap bare LaTeX on the medium tier
+  retrieval:
+    enabled: true                # Instr23a: verbatim dev-duplicate test items -> dev gold
+    sim_threshold: 0.95
+    corpus: dev
+
+seed: 1234

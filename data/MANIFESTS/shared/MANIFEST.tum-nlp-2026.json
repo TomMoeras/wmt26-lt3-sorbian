@@ -1,0 +1,5 @@
+{"dataset_name": "TUM-NLP/llms-limited-resources2026", "status": "allowed", "retrieved_at": "2026-06-01",
+ "source_repo_url": "https://github.com/TUM-NLP/llms-limited-resources2026",
+ "git_revision": "fba93a07d74051d7ab9add465599e891e65d3966",
+ "license": "MT mono + MR Apache-2.0; MT/QA(ZNO)/SC/GC per Ukrainian|Sorbian README; ZNO MIT",
+ "notes": "Canonical organisers data. Symlinked into uk/* and sorbian/*."}

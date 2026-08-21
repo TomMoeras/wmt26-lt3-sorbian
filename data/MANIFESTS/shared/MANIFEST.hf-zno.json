@@ -1,0 +1,6 @@
+{"dataset_name": "osyvokon/zno (full HF release)", "status": "partially-allowed", "retrieved_at": "2026-06-01",
+ "huggingface_dataset": "osyvokon/zno", "license": "CC BY 4.0",
+ "files": [
+   {"name": "train.jsonl", "lines": 3063, "split": "train", "notes": "ALLOWED (== organisers train+dev)"},
+   {"name": "test.jsonl", "lines": 751, "split": "test", "notes": "BANNED — UNLP2024 test. Never use."}
+ ]}
