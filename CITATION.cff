@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the system description paper."
-title: "Getting More from Small LLMs: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP"
+title: "Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP"
 authors:
   - family-names: Moerman
     given-names: Thomas
@@ -8,3 +8,21 @@ authors:
     given-names: Arda
 repository-code: "https://github.com/TomMoeras/wmt26-lt3-sorbian"
 license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP"
+  authors:
+    - family-names: Moerman
+      given-names: Thomas
+    - family-names: Tezcan
+      given-names: Arda
+  collection-title: "Proceedings of the Eleventh Conference on Machine Translation (WMT)"
+  publisher:
+    name: "Association for Computational Linguistics"
+  location:
+    name: "Budapest, Hungary"
+  start: 2667
+  end: 2680
+  year: 2026
+  month: 10
+  url: "https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf"

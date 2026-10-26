@@ -5,7 +5,25 @@ QLoRA-tuned Qwen 3.5 2B serves machine translation, QA, spell-checking, grammar-
 and maths reasoning for Upper and Lower Sorbian, with a deterministic inference stack on top.
 
 - Weights (public): https://huggingface.co/TomMoeras/wmt26-lt3-sorbian
-- Paper: (link on publication)
+- Data (public): https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data
+- Paper: https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf (WMT 2026, pages 2667–2680)
+
+## Citing
+
+Thomas Moerman and Arda Tezcan. 2026. *Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP.* In Proceedings of the Eleventh Conference on Machine Translation (WMT), pages 2667–2680, Budapest, Hungary. Association for Computational Linguistics.
+
+```bibtex
+@inproceedings{moerman2026sorbian,
+  title     = {Getting More from Small {LLMs} and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask {Sorbian} {NLP}},
+  author    = {Moerman, Thomas and Tezcan, Arda},
+  booktitle = {Proceedings of the Eleventh Conference on Machine Translation (WMT)},
+  pages     = {2667--2680},
+  address   = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf},
+  year      = {2026}
+}
+```
 
 ## Results
 
