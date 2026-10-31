@@ -6,21 +6,22 @@ and maths reasoning for Upper and Lower Sorbian, with a deterministic inference 
 
 - Weights (public): https://huggingface.co/TomMoeras/wmt26-lt3-sorbian
 - Data (public): https://huggingface.co/datasets/TomMoeras/wmt26-lt3-sorbian-data
-- Paper: https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf (WMT 2026, pages 2667–2680)
+- Paper: https://aclanthology.org/2026.wmt-main.211/ (WMT 2026, pages 2668–2681, DOI 10.18653/2026.wmt-main.211)
 
 ## Citing
 
-Thomas Moerman and Arda Tezcan. 2026. *Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP.* In Proceedings of the Eleventh Conference on Machine Translation (WMT), pages 2667–2680, Budapest, Hungary. Association for Computational Linguistics.
+Thomas Moerman and Arda Tezcan. 2026. *Getting More from Small LLMs and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask Sorbian NLP.* In Proceedings of the Eleventh Conference on Machine Translation (WMT), pages 2668–2681, Budapest, Hungary. Association for Computational Linguistics.
 
 ```bibtex
 @inproceedings{moerman2026sorbian,
   title     = {Getting More from Small {LLMs} and Limited Data: Fuzzy-Match Retrieval and Candidate Scoring for Multitask {Sorbian} {NLP}},
   author    = {Moerman, Thomas and Tezcan, Arda},
   booktitle = {Proceedings of the Eleventh Conference on Machine Translation (WMT)},
-  pages     = {2667--2680},
+  pages     = {2668--2681},
   address   = {Budapest, Hungary},
   publisher = {Association for Computational Linguistics},
-  url       = {https://www2.statmt.org/wmt26/pdf/2026.wmt-1.210.pdf},
+  url       = {https://aclanthology.org/2026.wmt-main.211/},
+  doi       = {10.18653/2026.wmt-main.211},
   year      = {2026}
 }
 ```
