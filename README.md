@@ -28,7 +28,7 @@ Thomas Moerman and Arda Tezcan. 2026. *Getting More from Small LLMs and Limited 
 
 ## Results
 
-The primary system was **joint winner of the official Sorbian track** (tied on ranking points
+The primary system was **winner of the official Sorbian track** (22 ranking points, level
 with team HeyBusan). Official final scores for the primary
 ([organizer results](https://github.com/TUM-NLP/llms-limited-resources2026/blob/main/results.md)):
 
